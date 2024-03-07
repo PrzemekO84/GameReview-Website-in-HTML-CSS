@@ -55,15 +55,83 @@ header p{
     -3px -3px 5px black;
     box-shadow: 3px 3px 5px rgb(233, 206, 30),
     -3px -3px 5px rgb(193, 208, 211);
+    cursor: pointer;
 }
 #divgame1background{
     background-image: url(Images/bg3.webp);
     background-size: cover;
     background-position: center;
-    height: 300px
+    height: 350px;
 }
 #game1h2:hover{
     color: blueviolet;
     
 }
+.reviewimg{
+    
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.reviewimg img{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: black;
+    height: 100px;
+    margin-top: -18px;
+}
+.reviewimg h2{
+    border: 3px solid black;
+    background-color: rgb(31, 42, 42);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(233, 206, 30),
+    -1px -1px 5px rgb(193, 208, 211);
+}
+.reviewimg a:link{
+    color:  rgba(38, 151, 237, 0.915);
+    text-decoration: none;
+    background-color: rgb(31, 42, 42);
+    text-shadow: 1px 1px 5px black,
+    -1px -1px 5px black;
+}
+.reviewimg h2:hover{
+    color: blueviolet;
+}
+.reviewimg a:visited{
+    color: rgba(38, 151, 237, 0.915);
+}
+#h2bg3start{
+    color: rgb(240, 242, 251);
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(44, 41, 47);
+}
+#h2bg3start::after{
+    content: " 😩";
+}
+.startingreview{
+    border: 4px solid rgb(30, 148, 163);
+    border-radius: 5px;
+    padding: 2px 2px;
+    width: 500px;
+    background-color: black;
+    margin-top: -10px;
+    padding-top: -10px 
+}
+
+.startingreview p{
+    color: yellowgreen;
+    margin-top: -5px;
+}
+.startingreview h3{
+    color: grey;
+    text-shadow: 1px 1px 3px rgb(62, 55, 55),
+    -1px -1px 3px rgb(255, 10, 10);
+    font: bold;
+    display: inline-block;
+    margin-top: -1px;
+}
+
+
+
 /* Game 1 */

@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(25, 24, 24);
+    color: bisque;
+}
+/* Header */
+header{
+    text-align: center;
+}
+header h2{
+    color: rgb(184, 224, 228);
+}
+header p{
+    color: rgb(184, 224, 228);
+}
+.start::before{
+    content: "⚔️";
+}
+.start::after{
+    content: "⚔️";
+}
+.startdiv{
+    background-color: rgb(22, 2, 16);
+    display: inline-block;
+    border: 2px solid rgb(56, 12, 157);
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgb(240, 4, 4),
+    -3px -3px 5px rgb(12, 4, 240);
+    text-shadow: 3px 3px 5px rgb(17, 2, 190),
+    -3px -3px 5px rgb(91, 2, 2);
+}
+.divstartbackground{
+    background-image: url(Images/pacman.jpg);
+    height: 110px;
+    background-size: cover;
+    background-position: center;
+}
+/* Header */
+
+/* Game 1 */
+.gamediv {
+    text-align: center;
+}
+
+.gamediv h2 {
+    color: rgba(38, 151, 237, 0.915);
+    display: inline-block;
+    border: 2px solid rgb(44, 60, 183);
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(31, 42, 42);
+    text-shadow: 3px 3px 5px black,
+    -3px -3px 5px black;
+    box-shadow: 3px 3px 5px rgb(233, 206, 30),
+    -3px -3px 5px rgb(193, 208, 211);
+}
+#divgame1background{
+    background-image: url(Images/bg3.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px
+}
+#game1h2:hover{
+    color: blueviolet;
+    
+}
+/* Game 1 */
